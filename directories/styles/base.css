@@ -35,6 +35,13 @@ nav a {
     padding: 0.25rem 0.5rem;
 }
 
+nav a:hover {
+    background-color: white;
+    color: #004080;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
 .nav-links {
   display: flex;
   flex-wrap: wrap;
