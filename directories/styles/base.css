@@ -1,3 +1,4 @@
+/* base.css */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -17,10 +18,22 @@ header, footer {
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+
 nav a {
     color: white;
-    margin: 0 10px;
     text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
 }
 
 .card {
@@ -30,4 +43,11 @@ nav a {
     max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ Added to meet the "max-width used on main element" requirement */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
 }
