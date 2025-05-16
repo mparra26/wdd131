@@ -20,7 +20,7 @@ header, footer {
 }
 
 nav {
-    display: flex;              /* CSS Flex declaration */
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
@@ -33,8 +33,8 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline; /* Hover pseudo-class */
-    color: #ffcc00;
+    text-decoration: underline;
+    color: #ffcc00; /* or any highlight color */
 }
 
 .card {
@@ -48,7 +48,7 @@ nav a:hover {
 
 /* max-width on main element */
 main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
+    max-width: 1200px;  /* or any suitable max width */
+    margin: 0 auto;     /* center the main content */
+    padding: 1rem;      /* optional padding */
 }
