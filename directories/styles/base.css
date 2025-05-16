@@ -19,7 +19,7 @@ header, footer {
 }
 
 nav {
-    display: flex;
+    display: flex;              /* ✅ Flex declaration */
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
@@ -45,7 +45,7 @@ nav a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* ✅ Added to meet the "max-width used on main element" requirement */
+
 main {
     max-width: 1200px;
     margin: 0 auto;
