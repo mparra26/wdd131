@@ -35,6 +35,13 @@ nav a {
     padding: 0.25rem 0.5rem;
 }
 
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
 /* Removed :hover pseudo-class per instructions */
 
 .card {
