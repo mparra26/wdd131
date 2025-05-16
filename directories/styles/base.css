@@ -32,12 +32,6 @@ nav a {
     padding: 0.25rem 0.5rem;
 }
 
-nav a:focus {
-    text-decoration: underline;
-    color: #ffcc00;
-    outline: none;
-}
-
 .card {
     background-color: white;
     margin: 1rem auto;
