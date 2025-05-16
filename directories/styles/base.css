@@ -42,14 +42,9 @@ nav a:focus {
     background-color: white;
     margin: 1rem auto;
     padding: 1rem;
-    max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 main {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 1rem;
 }
