@@ -20,20 +20,18 @@ header, footer {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
+    text-align: center;
     padding: 0.5rem 0;
 }
 
 nav a {
+    display: inline-block;
+    margin: 0 0.5rem;
     color: white;
     text-decoration: none;
     padding: 0.25rem 0.5rem;
 }
 
-nav a:hover,
 nav a:focus {
     text-decoration: underline;
     color: #ffcc00;
