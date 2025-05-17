@@ -64,6 +64,8 @@ footer {
 
 /* Media query for larger screens */
 @media screen and (min-width: 768px) {
+  /* styles here apply only if screen width is 768px or more */
+}
   nav {
     display: flex;
     flex-direction: row;
@@ -77,4 +79,3 @@ footer {
   .container {
     grid-template-columns: repeat(3, 1fr);
   }
-}
