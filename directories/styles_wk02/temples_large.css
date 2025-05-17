@@ -1,5 +1,6 @@
 @media screen and (min-width: 768px) {
-  nav {
+}
+    nav {
     display: flex !important;
     flex-direction: row;
     justify-content: center;
@@ -22,4 +23,3 @@
     max-width: 100%;
     height: auto;
   }
-}
