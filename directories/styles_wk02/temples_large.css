@@ -1,13 +1,25 @@
-nav {
-  display: flex !important; /* Override display:none from base CSS */
-  flex-direction: row;
-  justify-content: flex-end;
-}
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
 
-#menu-button {
-  display: none; /* Hide the menu button on large screens */
-}
+  #menu-button {
+    display: none;
+  }
 
-.container {
-  grid-template-columns: repeat(3, 1fr);
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  main {
+    padding: 2rem;
+  }
+
+  figure img {
+    max-width: 100%;
+    height: auto;
+  }
 }
