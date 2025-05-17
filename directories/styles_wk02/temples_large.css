@@ -1,0 +1,13 @@
+nav {
+  display: flex !important; /* Override display:none from base CSS */
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#menu-button {
+  display: none; /* Hide the menu button on large screens */
+}
+
+.container {
+  grid-template-columns: repeat(3, 1fr);
+}
