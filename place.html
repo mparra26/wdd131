@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Place</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/script.js" defer></script>
 </head>
 <body>
-    
+  <header>
+    <h1>Your Place</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <source srcset="images/hero-large.webp" media="(min-width: 1024px)" />
+        <source srcset="images/hero-medium.webp" media="(min-width: 600px)" />
+        <img src="images/hero-small.webp" alt="Scenic view of Your Place" />
+      </picture>
+    </section>
+
+    <section class="weather">
+      <h2>Weather <span class="weather-icon">⛅</span></h2>
+      <img class="mobile-icon" src="images/weather-icon.svg" alt="Weather Icon" />
+      <p>Temperature: <span id="temperature">45</span>°F</p>
+      <p>Wind Speed: <span id="windSpeed">10</span> mph</p>
+      <p>Wind Chill: <span id="windChill">Calculating...</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Your Name</p>
+    <p>Last modified: <span id="lastModified"></span></p>
+  </footer>
 </body>
 </html>
