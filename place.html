@@ -6,8 +6,7 @@
   <meta name="description" content="Discover the beauty of the Temples. View current weather, explore scenic views, and learn interesting facts about this destination.">
   <title>Your Place</title>
   <link rel="stylesheet" href="styles/styles.css">
-  <!-- In your <head> -->
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <script src="directories/scripts_wk02/scripts/place.js" defer></script>
 </head>
 <body>
@@ -20,10 +19,10 @@
       <picture>
         <source srcset="images/hero-large.webp" media="(min-width: 1024px)">
         <source srcset="images/hero-medium.webp" media="(min-width: 600px)">
-        <img src="directories/images/scenic_view.jpg" alt="Scenic view of your place">
-        <img src="directories/images/Weather_icon.png" alt="Weather icon" class="mobile-icon">
-        <img src="images/hero-small.webp" alt="Scenic view of Your Place">
+        <img src="images/hero-small.webp" alt="Scenic view of your place">
       </picture>
+      <!-- Weather icon moved outside picture -->
+      <img src="images/weather-icon.svg" alt="Weather icon" class="mobile-icon">
     </section>
 
     <section class="weather">
@@ -36,8 +35,8 @@
   </main>
 
   <footer>
-    <p>&copy; <span id="2025"></span> Mikel Parra</p>
-    <p>Last modified: <span id="05/20/2025"></span></p>
+    <p>&copy; <span id="year"></span> Mikel Parra</p>
+    <p>Last modified: <span id="lastModified"></span></p>
   </footer>
 </body>
 </html>

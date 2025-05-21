@@ -19,3 +19,7 @@ const windChill =
   temp <= 50 && speed > 3 ? `${calculateWindChill(temp, speed)} °F` : "N/A";
 
 document.getElementById("windChill").textContent = windChill;
+
+// Footer year and last modified
+document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("lastModified").textContent = document.lastModified;
