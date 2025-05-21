@@ -52,3 +52,7 @@ header, footer {
     display: inline;
   }
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
