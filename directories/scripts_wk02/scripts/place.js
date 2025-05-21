@@ -1,8 +1,8 @@
-// Footer date
+// Footer date (year and last modified)
 document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = document.lastModified;
 
-// Wind Chill
+// Wind Chill calculation
 const temp = parseFloat(document.getElementById("temperature").textContent);
 const speed = parseFloat(document.getElementById("windSpeed").textContent);
 
@@ -19,7 +19,3 @@ const windChill =
   temp <= 50 && speed > 3 ? `${calculateWindChill(temp, speed)} °F` : "N/A";
 
 document.getElementById("windChill").textContent = windChill;
-
-// Footer year and last modified
-document.getElementById("year").textContent = new Date().getFullYear();
-document.getElementById("lastModified").textContent = document.lastModified;
