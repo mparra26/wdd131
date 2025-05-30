@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Temples - Filtered</title>
+  <link rel="stylesheet" href="filtered-temples.css" />
+</head>
+<body>
+  <header>
+    <h1>Temples</h1>
+    <button id="menu-button">Menu</button>
+    <nav id="nav-menu">
+      <button onclick="filterTemples('home')">Home</button>
+      <button onclick="filterTemples('old')">Old</button>
+      <button onclick="filterTemples('new')">New</button>
+      <button onclick="filterTemples('large')">Large</button>
+      <button onclick="filterTemples('small')">Small</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container" id="temples-container"></section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Your Name | WDD 131</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script src="filtered-temples.js" defer></script>
+</body>
+</html>
