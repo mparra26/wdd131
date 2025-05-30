@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const menuButton = document.getElementById("menu-button");
+  const menuButton = document.getElementById("menu-button");         
   const navMenu = document.getElementById("nav-menu");
 
+  // ✅ FIX: Removed flex, now uses block display
   menuButton.addEventListener("click", () => {
-    navMenu.classList.toggle("show");
-    navMenu.classList.toggle("hide");
+    navMenu.style.display = (navMenu.style.display === "block") ? "none" : "block";
   });
 
   // Footer year and last modified
