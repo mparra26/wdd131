@@ -4,7 +4,8 @@ body {
   padding: 0;
 }
 
-header, footer {
+header,
+footer {
   background-color: #eee;
   text-align: center;
   padding: 1rem;
@@ -46,7 +47,7 @@ nav button:hover {
   max-width: 300px;
   background-color: #f9f9f9;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .temple-card img {
