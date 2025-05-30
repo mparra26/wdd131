@@ -19,17 +19,26 @@ nav {
   margin: 1rem 0;
 }
 
-nav button {
+/* Style the nav links like buttons */
+nav a {
+  display: inline-block;
   padding: 0.5rem 1rem;
   background-color: #0077cc;
   color: white;
-  border: none;
   border-radius: 5px;
+  text-decoration: none;
   cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
-nav button:hover {
+nav a:hover {
   background-color: #005fa3;
+}
+
+/* Remove old button styles if still present */
+nav button {
+  display: none;
 }
 
 .container {
