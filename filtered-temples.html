@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Temples - Filtered</title>
-  <!-- Google Fonts example (optional) -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Filtered Temples Gallery | WDD 131</title>
+  <meta name="description" content="A gallery of temples filtered by age, size, and location with dynamically generated cards." />
+  <meta name="author" content="Mikel Parra">
+  <!-- Google Fonts example - add your preferred fonts here (no @import) -->
   <!-- <link href="https://fonts.googleapis.com/css2?family=Arial&display=swap" rel="stylesheet" /> -->
 
-  <!-- Updated CSS link to styles directory -->
   <link rel="stylesheet" href="styles/filtered-temples.css" />
 </head>
 <body>
   <header>
-    <h1>Temples</h1>
+    <h1>Temples Gallery</h1>
     <button id="menu-button">Menu</button>
     <nav id="nav-menu">
       <a href="#" onclick="filterTemples('home'); return false;">Home</a>
@@ -24,7 +25,6 @@
   </header>
 
   <main>
-    <!-- Dynamic temple cards will be inserted here -->
     <section class="container" id="temples-container"></section>
   </main>
 
@@ -33,6 +33,7 @@
     <p>Last Modified: <span id="lastModified"></span></p>
   </footer>
 
-  <script src="filtered-temples.js" defer></script>
+  <!-- Moved JS to scripts directory -->
+  <script src="scripts/filtered-temples.js" defer></script>
 </body>
 </html>
