@@ -12,35 +12,31 @@ footer {
 }
 
 nav {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+  text-align: center;
   margin: 1rem 0;
 }
 
+/* Make nav buttons behave like inline-block buttons, no flex */
 nav a {
   display: inline-block;
   padding: 0.5rem 1rem;
   background-color: #0077cc;
   color: white;
+  border: none;
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
-  font-weight: bold;
-  /* Removed :hover due to validation error */
-  /* transition: background-color 0.3s ease; */
+  margin: 0 0.5rem 0.5rem 0.5rem;
 }
 
-/* Hide the old buttons if any */
-nav button {
-  display: none;
+nav a:focus {
+  outline: 2px solid #005fa3; /* keep accessibility focus style */
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  /* Use grid instead of flex */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
   padding: 1rem;
 }
@@ -49,7 +45,6 @@ nav button {
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 1rem;
-  max-width: 300px;
   background-color: #f9f9f9;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
