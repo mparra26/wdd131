@@ -47,7 +47,29 @@ document.addEventListener("DOMContentLoaded", () => {
       dedicated: "May 17, 1884",
       area: 119619,
       imageUrl: "https://www.churchofjesuschrist.org/imgs/fb4c9291294711ecb9d2eeeeac1e05d2309e944b/full/320%2C/0/default",
-    }
+    },
+    // NEW TEMPLES ADDED BELOW
+    {
+      name: "Tokyo Japan Temple",
+      location: "Tokyo, Japan",
+      dedicated: "October 27, 1980",
+      area: 52915,
+      imageUrl: "https://www.churchofjesuschrist.org/imgs/8f49bdf287ec11ecaa68eeeeac1e05d2309e944b/full/320%2C/0/default",
+    },
+    {
+      name: "Payson Utah Temple",
+      location: "Payson, Utah",
+      dedicated: "June 7, 2015",
+      area: 96630,
+      imageUrl: "https://www.churchofjesuschrist.org/imgs/3a2b9c15bfa711ecb6a1eeeeac1e05d2309e944b/full/320%2C/0/default",
+    },
+    {
+      name: "Kinshasa Democratic Republic of the Congo Temple",
+      location: "Kinshasa, DRC",
+      dedicated: "April 14, 2019",
+      area: 10000,
+      imageUrl: "https://www.churchofjesuschrist.org/imgs/28bc753ba6b411edb2c0eeeeac1e05d2309e944b/full/320%2C/0/default",
+    },
   ];
 
   const container = document.getElementById("temples-container");
