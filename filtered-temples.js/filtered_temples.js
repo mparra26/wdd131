@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const navMenu = document.getElementById("nav-menu");
 
   menuButton.addEventListener("click", () => {
-    navMenu.style.display = (navMenu.style.display === "flex") ? "none" : "flex";
-    navMenu.style.flexDirection = "column";
+    navMenu.classList.toggle("show");
+    navMenu.classList.toggle("hide");
   });
 
   // Footer year and last modified
@@ -48,7 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
       area: 119619,
       imageUrl: "https://www.churchofjesuschrist.org/imgs/fb4c9291294711ecb9d2eeeeac1e05d2309e944b/full/320%2C/0/default",
     },
-    // NEW TEMPLES ADDED BELOW
     {
       name: "Tokyo Japan Temple",
       location: "Tokyo, Japan",

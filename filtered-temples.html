@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Filtered Temples Gallery | WDD 131</title>
   <meta name="description" content="A gallery of temples filtered by age, size, and location with dynamically generated cards." />
   <meta name="author" content="Mikel Parra">
-  <!-- Google Fonts example - add your preferred fonts here (no @import) -->
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Arial&display=swap" rel="stylesheet" /> -->
 
-  <link rel="stylesheet" href="filtered-temples.css/filtered_temples.css" />
+  <!-- Correct Google Font embed -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- Corrected CSS path -->
+  <link rel="stylesheet" href="styles/filtered_temples.css">
 </head>
 <body>
   <header>
     <h1>Temples Gallery</h1>
     <button id="menu-button">Menu</button>
-    <nav id="nav-menu">
+    <nav id="nav-menu" class="hide">
       <a href="#" onclick="filterTemples('home'); return false;">Home</a>
       <a href="#" onclick="filterTemples('old'); return false;">Old</a>
       <a href="#" onclick="filterTemples('new'); return false;">New</a>
@@ -33,7 +35,7 @@
     <p>Last Modified: <span id="lastModified"></span></p>
   </footer>
 
-  <!-- Moved JS to scripts directory -->
-  <script src="filtered-temples.js/filtered_temples.js" defer></script>
+  <!-- Corrected JS path -->
+  <script src="scripts/filtered_temples.js" defer></script>
 </body>
 </html>
