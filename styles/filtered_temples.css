@@ -19,7 +19,6 @@ nav {
   margin: 1rem 0;
 }
 
-/* Style the nav links like buttons */
 nav a {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -29,14 +28,11 @@ nav a {
   text-decoration: none;
   cursor: pointer;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  /* Removed :hover due to validation error */
+  /* transition: background-color 0.3s ease; */
 }
 
-nav a:hover {
-  background-color: #005fa3;
-}
-
-/* Remove old button styles if still present */
+/* Hide the old buttons if any */
 nav button {
   display: none;
 }
