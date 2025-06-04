@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Filtered Temples Gallery | WDD 131</title>
-  <meta name="description"
-    content="A gallery of temples filtered by age, size, and location with dynamically generated cards." />
-  <meta name="author" content="Mikel Parra">
+  <meta name="description" content="Filtered LDS Temples Gallery" />
+  <meta name="author" content="Mikel Parra" />
+  <title>Filtered Temples</title>
 
-  <!-- Correct Google Font embed -->
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-  <!-- Corrected CSS path -->
+  <!-- CSS -->
   <link rel="stylesheet" href="styles/filtered-temples.css">
-</head>
+  <link rel="stylesheet" href="styles/temples_large.css" media="screen and (min-width: 768px)">
 
+  <!-- JavaScript -->
+  <script src="directories/scripts_wk02/scripts/filtered-temples.js" defer></script>
+</head>
 <body>
   <header>
-    <h1>Temples Gallery</h1>
-    <button id="menu-button">Menu</button>
-    <nav id="nav-menu" class="hide">
-      <a href="#" onclick="filterTemples('home'); return false;">Home</a>
-      <a href="#" onclick="filterTemples('old'); return false;">Old</a>
-      <a href="#" onclick="filterTemples('new'); return false;">New</a>
-      <a href="#" onclick="filterTemples('large'); return false;">Large</a>
-      <a href="#" onclick="filterTemples('small'); return false;">Small</a>
+    <h1>Filtered Temples</h1>
+    <button id="menu-button">☰</button>
+    <nav id="nav-menu">
+      <a href="#" data-filter="all">Home</a>
+      <a href="#" data-filter="old">Old</a>
+      <a href="#" data-filter="new">New</a>
+      <a href="#" data-filter="large">Large</a>
+      <a href="#" data-filter="small">Small</a>
     </nav>
   </header>
 
   <main>
-    <section class="container" id="temples-container"></section>
+    <h2>Temples Gallery</h2>
+    <section class="container" id="temples-container">
+      <!-- JavaScript will insert temple cards here -->
+    </section>
   </main>
 
   <footer>
     <p>&copy; <span id="year"></span> | Mikel Parra | WDD 131</p>
     <p>Last Modified: <span id="lastModified"></span></p>
   </footer>
-
-  <!-- Corrected JS path -->
-  <script src="scripts/filtered-temples.js" defer></script>
 </body>
-
 </html>
