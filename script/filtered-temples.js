@@ -5,7 +5,7 @@ const temples = [
     dedicated: "1893-04-06",
     area: 253015,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-lds-1024942-wallpaper.jpg"
+      "directories/images/salt_lake_temple.jpg"
   },
   {
     name: "Provo City Center Temple",
