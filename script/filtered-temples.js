@@ -5,7 +5,7 @@ const temples = [
     dedicated: "1893-04-06",
     area: 253015,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-lds-1024942-wallpaper.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-15669-main.jpg"
   },
   {
     name: "Provo City Center Temple",
@@ -13,7 +13,7 @@ const temples = [
     dedicated: "2016-03-20",
     area: 85000,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/provo-city-center-temple/provo-city-center-temple-lds-1487565-wallpaper.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/provo-city-center-temple/provo-city-center-temple-56386-main.jpg"
   },
   {
     name: "Logan Utah Temple",
@@ -21,7 +21,7 @@ const temples = [
     dedicated: "1884-05-17",
     area: 119619,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/logan-utah-temple/logan-utah-temple-lds-1139653-wallpaper.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/logan-utah-temple/logan-utah-temple-40550-main.jpg"
   },
   {
     name: "Paris France Temple",
@@ -29,7 +29,7 @@ const temples = [
     dedicated: "2017-05-21",
     area: 44000,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/paris-france-temple/paris-france-temple-lds-1770351-wallpaper.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/paris-france-temple/paris-france-temple-2056-main.jpg"
   },
   {
     name: "Campinas Brazil Temple",
@@ -37,7 +37,7 @@ const temples = [
     dedicated: "2002-05-17",
     area: 48400,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/campinas-brazil-temple/campinas-brazil-temple-lds-1487590-wallpaper.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/campinas-brazil-temple/campinas-brazil-temple-6012-main.jpg"
   },
   {
     name: "St. George Utah Temple",
@@ -45,7 +45,7 @@ const temples = [
     dedicated: "1877-04-06",
     area: 110000,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/st.-george-utah-temple/st.-george-utah-temple-lds-2236520-wallpaper.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/st.-george-utah-temple/st.-george-utah-temple-40435-main.jpg"
   }
 ];
 
