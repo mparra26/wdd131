@@ -6,11 +6,11 @@ const products = [
   { id: "p4", name: "Helmet" }
 ];
 
-// Populate select options
-const selectElement = document.getElementById("productName");
+// Populate product select options dynamically
+const productSelect = document.getElementById("productName");
 products.forEach(product => {
   const option = document.createElement("option");
   option.value = product.name;
   option.textContent = product.name;
-  selectElement.appendChild(option);
+  productSelect.appendChild(option);
 });
