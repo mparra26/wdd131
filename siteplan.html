@@ -2,88 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site Plan</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Oswald:wght@500&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #f0f4f8;
-      color: #333;
-      padding: 1rem 2rem;
-      line-height: 1.6;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    h1, h2 {
-      font-family: 'Oswald', sans-serif;
-      color: #004b87;
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    .color-swatch {
-      display: inline-block;
-      width: 100px;
-      height: 30px;
-      margin: 0.5rem;
-      border: 1px solid #ccc;
-      vertical-align: middle;
-    }
-    .wireframes img {
-      max-width: 100%;
-      height: auto;
-      border: 1px solid #ccc;
-      margin-top: 1rem;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Site Plan - Nature Trails Explorer</title>
+  <link rel="stylesheet" href="styles/siteplan.css" />
 </head>
 <body>
   <header>
-    <h1>Site Plan</h1>
-    <h2>MyFitness Tracker</h2>
-    <p>This name represents a web application focused on helping users track their fitness progress with ease and clarity. It’s simple, relevant, and easy to remember.</p>
-    <p><strong>Optional domain availability:</strong> myfitnesstracker.app</p>
+    <h1>🌲 Nature Trails Explorer</h1>
+    <p class="tagline">Discover the best hiking and biking trails near you</p>
   </header>
 
-  <section>
-    <h2>Site Purpose</h2>
-    <p>
-      The purpose of MyFitness Tracker is to provide users with an easy-to-use tool to log workouts, track progress, and set health goals. The site will include workout logging, goal tracking, and motivational resources to help users stay on track.
-    </p>
-  </section>
+  <main>
+    <section>
+      <h2>Site Name</h2>
+      <p><strong>Nature Trails Explorer</strong> is a web resource for nature lovers to find, explore, and review trails across the country.</p>
+      <p><strong>Why this name?</strong> It clearly reflects the main purpose of the site: to help users explore nature trails for hiking and biking adventures.</p>
+      <p>Optional domain availability: <em>naturetrailsexplorer.com</em></p>
+    </section>
 
-  <section>
-    <h2>Scenarios</h2>
-    <ul>
-      <li>How can I log a custom workout that includes weightlifting and cardio?</li>
-      <li>Can I view my progress for the last month and compare it to my goals?</li>
-    </ul>
-  </section>
+    <section>
+      <h2>Site Purpose</h2>
+      <p>The purpose of this site is to provide an engaging platform for outdoor enthusiasts to discover and share hiking and biking trails. Users will be able to search for trails, read reviews, view trail difficulty, and contribute their own experiences.</p>
+    </section>
 
-  <section>
-    <h2>Color Schema</h2>
-    <p><strong>Primary Color:</strong> #004b87 (used for headings and buttons)</p>
-    <div class="color-swatch" style="background-color: #004b87;"></div>
+    <section>
+      <h2>Scenarios</h2>
+      <ul>
+        <li>What are the best beginner-friendly biking trails in my area?</li>
+        <li>How can I upload and share a trail I just completed?</li>
+      </ul>
+    </section>
 
-    <p><strong>Secondary Color:</strong> #f0f4f8 (used for background and sections)</p>
-    <div class="color-swatch" style="background-color: #f0f4f8;"></div>
-  </section>
+    <section>
+      <h2>Color Schema</h2>
+      <ul>
+        <li><strong>Forest Green (#228B22):</strong> Used for headers and navigation bars to evoke nature.</li>
+        <li><strong>Earth Beige (#F5F5DC):</strong> Used for background to maintain a clean and natural look.</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Typography</h2>
-    <p><strong>Headings:</strong> Oswald (Google Fonts)</p>
-    <p><strong>Body Text:</strong> Roboto (Google Fonts)</p>
-  </section>
+    <section>
+      <h2>Typography</h2>
+      <ul>
+        <li><strong>Heading Font:</strong> 'Merriweather', serif – used for titles and headers for a rustic outdoor feel.</li>
+        <li><strong>Body Font:</strong> 'Open Sans', sans-serif – used for body text for readability.</li>
+      </ul>
+    </section>
 
-  <section class="wireframes">
-    <h2>Wireframe</h2>
-    <p><strong>Mobile View:</strong></p>
-    <img src="images/wireframe-mobile.png" alt="Mobile wireframe layout">
+    <section>
+      <h2>Wireframes</h2>
+      <h3>Mobile View</h3>
+      <img src="images/wireframe-mobile.png" alt="Mobile Wireframe of Homepage" />
 
-    <p><strong>Desktop View:</strong></p>
-    <img src="images/wireframe-desktop.png" alt="Desktop wireframe layout">
-  </section>
+      <h3>Desktop View</h3>
+      <img src="images/wireframe-desktop.png" alt="Desktop Wireframe of Homepage" />
+    </section>
+
+    <section>
+      <h2>Testing and Validation</h2>
+      <ul>
+        <li>✅ HTML and CSS validated with W3C validator.</li>
+        <li>✅ Checked for mobile responsiveness and accessibility (color contrast & alt attributes).</li>
+        <li>✅ Passed Lighthouse audit for SEO and performance.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nature Trails Explorer</p>
+  </footer>
 </body>
+</html>

@@ -1,73 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Submit your product review using this form. Rate the product, describe its features, and share your experience." />
-  <meta name="author" content="Mikel Parra" />
-  <title>Product Review Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Submit your product review using this form. Rate the product, describe its features, and share your experience." />
+    <meta name="author" content="Mikel Parra" />
+    <title>Product Review Form</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="styles/styles.css" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/styles.css" />
 
-  <!-- JavaScript (deferred) -->
-  <script src="scripts/scripts.js" defer></script>
+    <!-- JavaScript (deferred) -->
+    <script src="scripts/scripts.js" defer></script>
 </head>
+
 <body>
-  <header>
-    <h1>Product Review Form</h1>
-  </header>
+    <header>
+        <h1>Product Review Form</h1>
+    </header>
 
-  <main>
-    <form method="get" action="review.html">
-      <!-- Product Name -->
-      <label for="productName">Product Name:</label>
-      <select id="productName" name="productName" required>
-        <option value="" disabled selected>Select a Product ...</option>
-        <!-- JS will populate options -->
-      </select>
+    <main>
+        <form method="get" action="review.html">
+            <!-- Product Name -->
+            <label for="productName">Product Name:</label>
+            <select id="productName" name="productName" required>
+                <option value="" disabled selected>Select a Product ...</option>
+                <!-- JS will populate options -->
+            </select>
 
-      <!-- Overall Rating -->
-      <fieldset>
-        <legend>Overall Rating:</legend>
-        <label><input type="radio" id="rating1" name="rating" value="1" required> 1 ☆</label>
-        <label><input type="radio" id="rating2" name="rating" value="2"> 2 ☆☆</label>
-        <label><input type="radio" id="rating3" name="rating" value="3"> 3 ☆☆☆</label>
-        <label><input type="radio" id="rating4" name="rating" value="4"> 4 ☆☆☆☆</label>
-        <label><input type="radio" id="rating5" name="rating" value="5"> 5 ☆☆☆☆☆</label>
-      </fieldset>
+            <!-- Overall Rating -->
+            <fieldset>
+                <legend>Overall Rating:</legend>
+                <label><input type="radio" id="rating1" name="rating" value="1" required> 1 ☆</label>
+                <label><input type="radio" id="rating2" name="rating" value="2"> 2 ☆☆</label>
+                <label><input type="radio" id="rating3" name="rating" value="3"> 3 ☆☆☆</label>
+                <label><input type="radio" id="rating4" name="rating" value="4"> 4 ☆☆☆☆</label>
+                <label><input type="radio" id="rating5" name="rating" value="5"> 5 ☆☆☆☆☆</label>
+            </fieldset>
 
-      <!-- Installation Date -->
-      <label for="installDate">Date of Installation:</label>
-      <input type="date" id="installDate" name="installDate" required>
+            <!-- Installation Date -->
+            <label for="installDate">Date of Installation:</label>
+            <input type="date" id="installDate" name="installDate" required>
 
-      <!-- Useful Features -->
-      <fieldset>
-        <legend>Useful Features:</legend>
-        <label><input type="checkbox" id="feature1" name="features" value="Easy to use"> Easy to use</label>
-        <label><input type="checkbox" id="feature2" name="features" value="Durable"> Durable</label>
-        <label><input type="checkbox" id="feature3" name="features" value="Affordable"> Affordable</label>
-        <label><input type="checkbox" id="feature4" name="features" value="Lightweight"> Lightweight</label>
-      </fieldset>
+            <!-- Useful Features -->
+            <fieldset>
+                <legend>Useful Features:</legend>
+                <label><input type="checkbox" id="feature1" name="features" value="Easy to use"> Easy to use</label>
+                <label><input type="checkbox" id="feature2" name="features" value="Durable"> Durable</label>
+                <label><input type="checkbox" id="feature3" name="features" value="Affordable"> Affordable</label>
+                <label><input type="checkbox" id="feature4" name="features" value="Lightweight"> Lightweight</label>
+            </fieldset>
 
-      <!-- Review -->
-      <label for="review">Written Review:</label>
-      <textarea id="review" name="review" rows="4" placeholder="Write your review..."></textarea>
+            <!-- Review -->
+            <label for="review">Written Review:</label>
+            <textarea id="review" name="review" rows="4" placeholder="Write your review..."></textarea>
 
-      <!-- User Name -->
-      <label for="username">Your Name:</label>
-      <input type="text" id="username" name="username" placeholder="Optional">
+            <!-- User Name -->
+            <label for="username">Your Name:</label>
+            <input type="text" id="username" name="username" placeholder="Optional">
 
-      <!-- Submit -->
-      <input type="submit" value="Submit">
-    </form>
-  </main>
+            <!-- Submit -->
+            <input type="submit" value="Submit">
+        </form>
+    </main>
 
-  <footer>
-    <p>&copy; 2025 Mikel Parra. All rights reserved.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Mikel Parra. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
