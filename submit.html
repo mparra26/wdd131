@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Submit a Trail</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Submit a New Trail</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="trails.html">Explore Trails</a>
+      <a href="submit.html">Submit Trail</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="trail-form">
+      <label for="trailName">Trail Name:</label>
+      <input type="text" id="trailName" name="trailName" required />
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required />
+
+      <label for="difficulty">Difficulty:</label>
+      <select id="difficulty" name="difficulty" required>
+        <option value="">--Select--</option>
+        <option value="Easy">Easy</option>
+        <option value="Moderate">Moderate</option>
+        <option value="Hard">Hard</option>
+      </select>
+
+      <button type="submit">Submit Trail</button>
+    </form>
+
+    <ul id="submitted-trails"></ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nature Trails Explorer | <a href="references.html">References</a></p>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

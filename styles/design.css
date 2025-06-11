@@ -1,0 +1,64 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5dc;
+  color: #333;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  color: #228B22;
+}
+
+header, footer {
+  background-color: #228B22;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  margin-top: 0.5em;
+}
+
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 1em;
+}
+
+.card {
+  background: white;
+  padding: 1em;
+  margin: 1em 0;
+  border-left: 6px solid #228B22;
+  border-radius: 5px;
+}
+
+.trail-grid {
+  display: grid;
+  gap: 1em;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form select, form button {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+@media (min-width: 700px) {
+  .trail-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
